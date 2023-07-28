@@ -1,1 +1,26 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
 
+.App.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.App.dark {
+  background-color: #333;
+  color: #f0f0f0;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
