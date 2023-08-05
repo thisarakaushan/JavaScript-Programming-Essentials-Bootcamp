@@ -1,1 +1,65 @@
+<!--Create a webpage layout using Flexbox to achieve a responsive design for a product showcase. 
+    The layout should consist of the following elements:
 
+1. Header: A centered title with a background color and padding.
+2. Navigation Menu: Horizontally aligned menu items with equal spacing.
+3. Main Content: Display at least three product cards in a row, each containing an image, title, and description.
+4. Sidebar: A vertically aligned sidebar with some related links.
+5. Footer: A centered copyright text with a background color.-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Showcase</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Product Showcase</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h2>Product 1</h2>
+            <p>Description of Product 1</p>
+        </div>
+
+        <div class="product-card">
+            <img src="product2.jpg" alt="Product 2">
+            <h2>Product 2</h2>
+            <p>Description of Product 2</p>
+        </div>
+
+        <div class="product-card">
+            <img src="product3.jpg" alt="Product 3">
+            <h2>Product 3</h2>
+            <p>Description of Product 3</p>
+        </div>
+    </main>
+
+    <aside>
+        <h2>Related Links</h2>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; 2023 Product Showcase. All rights reserved.</p>
+    </footer>
+</body>
+</html>
